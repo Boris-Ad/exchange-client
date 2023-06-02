@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-image: url('./assets/grid.svg');
+  background-color: #0d0d10;
+  background-repeat: no-repeat;
+
+  font-family: 'Montserrat', sans-serif;
+}
+
+#root {
+  height: 100vh;
+}
